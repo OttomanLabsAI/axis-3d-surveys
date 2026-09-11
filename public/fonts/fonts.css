@@ -1,0 +1,6 @@
+/* Self-hosted from npm @fontsource (rajdhani, mulish): the site never waits on Google Fonts.
+   These are the two families and weights the live site requests from Google Fonts. */
+@font-face{font-family:"Rajdhani";font-style:normal;font-weight:600;font-display:swap;src:url("./rajdhani-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Rajdhani";font-style:normal;font-weight:700;font-display:swap;src:url("./rajdhani-latin-700-normal.woff2") format("woff2");}
+@font-face{font-family:"Mulish";font-style:normal;font-weight:400;font-display:swap;src:url("./mulish-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Mulish";font-style:normal;font-weight:700;font-display:swap;src:url("./mulish-latin-700-normal.woff2") format("woff2");}

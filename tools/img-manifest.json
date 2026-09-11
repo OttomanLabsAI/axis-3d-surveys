@@ -1,0 +1,800 @@
+{
+ "hero": {
+  "file": "hero.webp",
+  "width": 792,
+  "height": 800,
+  "bytes": 73732,
+  "placeholder": false
+ },
+ "hero-sm": {
+  "file": "hero-sm.webp",
+  "width": 520,
+  "height": 525,
+  "bytes": 43668,
+  "placeholder": false
+ },
+ "svc-scan-to-bim": {
+  "file": "svc-scan-to-bim.webp",
+  "width": 600,
+  "height": 340,
+  "bytes": 17662,
+  "placeholder": false
+ },
+ "svc-4d": {
+  "file": "svc-4d.webp",
+  "width": 600,
+  "height": 340,
+  "bytes": 43954,
+  "placeholder": false
+ },
+ "svc-as-built": {
+  "file": "svc-as-built.webp",
+  "width": 600,
+  "height": 340,
+  "bytes": 48530,
+  "placeholder": false
+ },
+ "svc-monitoring": {
+  "file": "svc-monitoring.webp",
+  "width": 600,
+  "height": 340,
+  "bytes": 34760,
+  "placeholder": false
+ },
+ "svc-heritage": {
+  "file": "svc-heritage.webp",
+  "width": 600,
+  "height": 340,
+  "bytes": 37536,
+  "placeholder": false
+ },
+ "svc-digital-twin": {
+  "file": "svc-digital-twin.webp",
+  "width": 600,
+  "height": 340,
+  "bytes": 18930,
+  "placeholder": false
+ },
+ "about-home": {
+  "file": "about-home.webp",
+  "width": 800,
+  "height": 1200,
+  "bytes": 64416,
+  "placeholder": false
+ },
+ "testimonials-bg": {
+  "file": "testimonials-bg.webp",
+  "width": 1477,
+  "height": 750,
+  "bytes": 153150,
+  "placeholder": false
+ },
+ "why-photo": {
+  "file": "why-photo.webp",
+  "width": 900,
+  "height": 1600,
+  "bytes": 104760,
+  "placeholder": false
+ },
+ "contact-bg": {
+  "file": "contact-bg.webp",
+  "width": 1000,
+  "height": 463,
+  "bytes": 31120,
+  "placeholder": false
+ },
+ "band-bg": {
+  "file": "band-bg.webp",
+  "width": 1600,
+  "height": 720,
+  "bytes": 208052,
+  "placeholder": false
+ },
+ "band-bg-sm": {
+  "file": "band-bg-sm.webp",
+  "width": 800,
+  "height": 360,
+  "bytes": 61130,
+  "placeholder": false
+ },
+ "svc-scan-to-bim-1": {
+  "file": "svc-scan-to-bim-1.webp",
+  "width": 637,
+  "height": 689,
+  "bytes": 35788,
+  "placeholder": false
+ },
+ "svc-scan-to-bim-2": {
+  "file": "svc-scan-to-bim-2.webp",
+  "width": 1024,
+  "height": 460,
+  "bytes": 29184,
+  "placeholder": false
+ },
+ "svc-4d-1": {
+  "file": "svc-4d-1.webp",
+  "width": 1200,
+  "height": 675,
+  "bytes": 132572,
+  "placeholder": false
+ },
+ "svc-4d-2": {
+  "file": "svc-4d-2.webp",
+  "width": 1024,
+  "height": 576,
+  "bytes": 61458,
+  "placeholder": false
+ },
+ "svc-as-built-1": {
+  "file": "svc-as-built-1.webp",
+  "width": 872,
+  "height": 781,
+  "bytes": 164852,
+  "placeholder": false
+ },
+ "svc-as-built-2": {
+  "file": "svc-as-built-2.webp",
+  "width": 1024,
+  "height": 499,
+  "bytes": 64920,
+  "placeholder": false
+ },
+ "svc-monitoring-1": {
+  "file": "svc-monitoring-1.webp",
+  "width": 530,
+  "height": 478,
+  "bytes": 47724,
+  "placeholder": false
+ },
+ "svc-heritage-1": {
+  "file": "svc-heritage-1.webp",
+  "width": 489,
+  "height": 381,
+  "bytes": 38344,
+  "placeholder": false
+ },
+ "svc-heritage-2": {
+  "file": "svc-heritage-2.webp",
+  "width": 1024,
+  "height": 367,
+  "bytes": 20094,
+  "placeholder": false
+ },
+ "svc-digital-twin-1": {
+  "file": "svc-digital-twin-1.webp",
+  "width": 650,
+  "height": 492,
+  "bytes": 24336,
+  "placeholder": false
+ },
+ "svc-digital-twin-2": {
+  "file": "svc-digital-twin-2.webp",
+  "width": 1024,
+  "height": 576,
+  "bytes": 79724,
+  "placeholder": false
+ },
+ "team-endrit": {
+  "file": "team-endrit.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 21702,
+  "placeholder": false
+ },
+ "team-florjan": {
+  "file": "team-florjan.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 35194,
+  "placeholder": false
+ },
+ "team-daniel": {
+  "file": "team-daniel.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 33534,
+  "placeholder": false
+ },
+ "proj-4d-planning-contractor-slough": {
+  "file": "proj-4d-planning-contractor-slough.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 71934,
+  "placeholder": false
+ },
+ "proj-point-cloud-architect-reading": {
+  "file": "proj-point-cloud-architect-reading.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 78348,
+  "placeholder": false
+ },
+ "proj-point-cloud-contractor-chesham": {
+  "file": "proj-point-cloud-contractor-chesham.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 84484,
+  "placeholder": false
+ },
+ "proj-scan-to-bim-property-developer-soho": {
+  "file": "proj-scan-to-bim-property-developer-soho.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 46006,
+  "placeholder": false
+ },
+ "proj-scan-to-bim-property-developer-south-london": {
+  "file": "proj-scan-to-bim-property-developer-south-london.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 14542,
+  "placeholder": false
+ },
+ "proj-victorian-terrace-renovation-islington-london": {
+  "file": "proj-victorian-terrace-renovation-islington-london.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 21554,
+  "placeholder": false
+ },
+ "proj-3d-walkthrough-for-flat-sale-manchester-city-centre": {
+  "file": "proj-3d-walkthrough-for-flat-sale-manchester-city-centre.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 46584,
+  "placeholder": false
+ },
+ "proj-as-built-deviation-flat-london": {
+  "file": "proj-as-built-deviation-flat-london.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 19856,
+  "placeholder": false
+ },
+ "proj-house-planning": {
+  "file": "proj-house-planning.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 49702,
+  "placeholder": false
+ },
+ "proj-heritage-scan-grade-ii-building-bath": {
+  "file": "proj-heritage-scan-grade-ii-building-bath.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 45112,
+  "placeholder": false
+ },
+ "proj-measured-survey-commercial-headquarters-london": {
+  "file": "proj-measured-survey-commercial-headquarters-london.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 112026,
+  "placeholder": false
+ },
+ "proj-cottage-extension-cotswolds": {
+  "file": "proj-cottage-extension-cotswolds.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 56060,
+  "placeholder": false
+ },
+ "proj-rear-side-loft-extension-potters-bar-london": {
+  "file": "proj-rear-side-loft-extension-potters-bar-london.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 20562,
+  "placeholder": false
+ },
+ "proj-rear-extension-watford-london": {
+  "file": "proj-rear-extension-watford-london.webp",
+  "width": 600,
+  "height": 700,
+  "bytes": 18972,
+  "placeholder": false
+ },
+ "pp-4d-planning-contractor-slough-hero": {
+  "file": "pp-4d-planning-contractor-slough-hero.webp",
+  "width": 1200,
+  "height": 613,
+  "bytes": 119376,
+  "placeholder": false
+ },
+ "pp-4d-planning-contractor-slough-01": {
+  "file": "pp-4d-planning-contractor-slough-01.webp",
+  "width": 1200,
+  "height": 613,
+  "bytes": 113216,
+  "placeholder": false
+ },
+ "pp-4d-planning-contractor-slough-02": {
+  "file": "pp-4d-planning-contractor-slough-02.webp",
+  "width": 1200,
+  "height": 838,
+  "bytes": 157424,
+  "placeholder": false
+ },
+ "pp-point-cloud-architect-reading-hero": {
+  "file": "pp-point-cloud-architect-reading-hero.webp",
+  "width": 1200,
+  "height": 630,
+  "bytes": 151146,
+  "placeholder": false
+ },
+ "pp-point-cloud-architect-reading-01": {
+  "file": "pp-point-cloud-architect-reading-01.webp",
+  "width": 1200,
+  "height": 646,
+  "bytes": 84404,
+  "placeholder": false
+ },
+ "pp-point-cloud-architect-reading-02": {
+  "file": "pp-point-cloud-architect-reading-02.webp",
+  "width": 1200,
+  "height": 630,
+  "bytes": 142980,
+  "placeholder": false
+ },
+ "pp-point-cloud-architect-reading-03": {
+  "file": "pp-point-cloud-architect-reading-03.webp",
+  "width": 1200,
+  "height": 714,
+  "bytes": 119672,
+  "placeholder": false
+ },
+ "pp-point-cloud-contractor-chesham-hero": {
+  "file": "pp-point-cloud-contractor-chesham-hero.webp",
+  "width": 1200,
+  "height": 636,
+  "bytes": 133372,
+  "placeholder": false
+ },
+ "pp-point-cloud-contractor-chesham-01": {
+  "file": "pp-point-cloud-contractor-chesham-01.webp",
+  "width": 1031,
+  "height": 1000,
+  "bytes": 359554,
+  "placeholder": false
+ },
+ "pp-point-cloud-contractor-chesham-02": {
+  "file": "pp-point-cloud-contractor-chesham-02.webp",
+  "width": 1200,
+  "height": 640,
+  "bytes": 131798,
+  "placeholder": false
+ },
+ "pp-point-cloud-contractor-chesham-03": {
+  "file": "pp-point-cloud-contractor-chesham-03.webp",
+  "width": 1200,
+  "height": 631,
+  "bytes": 113324,
+  "placeholder": false
+ },
+ "pp-point-cloud-contractor-chesham-04": {
+  "file": "pp-point-cloud-contractor-chesham-04.webp",
+  "width": 993,
+  "height": 1000,
+  "bytes": 441980,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-soho-hero": {
+  "file": "pp-scan-to-bim-property-developer-soho-hero.webp",
+  "width": 1200,
+  "height": 659,
+  "bytes": 88860,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-soho-01": {
+  "file": "pp-scan-to-bim-property-developer-soho-01.webp",
+  "width": 1200,
+  "height": 804,
+  "bytes": 36186,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-soho-02": {
+  "file": "pp-scan-to-bim-property-developer-soho-02.webp",
+  "width": 1200,
+  "height": 659,
+  "bytes": 81800,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-soho-03": {
+  "file": "pp-scan-to-bim-property-developer-soho-03.webp",
+  "width": 1200,
+  "height": 656,
+  "bytes": 40998,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-soho-04": {
+  "file": "pp-scan-to-bim-property-developer-soho-04.webp",
+  "width": 1200,
+  "height": 555,
+  "bytes": 46970,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-soho-05": {
+  "file": "pp-scan-to-bim-property-developer-soho-05.webp",
+  "width": 1200,
+  "height": 641,
+  "bytes": 99114,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-south-london-hero": {
+  "file": "pp-scan-to-bim-property-developer-south-london-hero.webp",
+  "width": 1080,
+  "height": 695,
+  "bytes": 21988,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-south-london-01": {
+  "file": "pp-scan-to-bim-property-developer-south-london-01.webp",
+  "width": 1080,
+  "height": 666,
+  "bytes": 16044,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-south-london-02": {
+  "file": "pp-scan-to-bim-property-developer-south-london-02.webp",
+  "width": 1080,
+  "height": 695,
+  "bytes": 20570,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-south-london-03": {
+  "file": "pp-scan-to-bim-property-developer-south-london-03.webp",
+  "width": 1080,
+  "height": 732,
+  "bytes": 50458,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-south-london-04": {
+  "file": "pp-scan-to-bim-property-developer-south-london-04.webp",
+  "width": 831,
+  "height": 507,
+  "bytes": 57030,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-south-london-05": {
+  "file": "pp-scan-to-bim-property-developer-south-london-05.webp",
+  "width": 836,
+  "height": 516,
+  "bytes": 21416,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-south-london-06": {
+  "file": "pp-scan-to-bim-property-developer-south-london-06.webp",
+  "width": 704,
+  "height": 1000,
+  "bytes": 38724,
+  "placeholder": false
+ },
+ "pp-scan-to-bim-property-developer-south-london-07": {
+  "file": "pp-scan-to-bim-property-developer-south-london-07.webp",
+  "width": 1078,
+  "height": 435,
+  "bytes": 25792,
+  "placeholder": false
+ },
+ "pp-victorian-terrace-renovation-islington-london-hero": {
+  "file": "pp-victorian-terrace-renovation-islington-london-hero.webp",
+  "width": 1024,
+  "height": 1024,
+  "bytes": 49862,
+  "placeholder": false
+ },
+ "pp-victorian-terrace-renovation-islington-london-01": {
+  "file": "pp-victorian-terrace-renovation-islington-london-01.webp",
+  "width": 1000,
+  "height": 1000,
+  "bytes": 45192,
+  "placeholder": false
+ },
+ "pp-victorian-terrace-renovation-islington-london-02": {
+  "file": "pp-victorian-terrace-renovation-islington-london-02.webp",
+  "width": 1024,
+  "height": 683,
+  "bytes": 34236,
+  "placeholder": false
+ },
+ "pp-victorian-terrace-renovation-islington-london-03": {
+  "file": "pp-victorian-terrace-renovation-islington-london-03.webp",
+  "width": 850,
+  "height": 506,
+  "bytes": 41320,
+  "placeholder": false
+ },
+ "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-hero": {
+  "file": "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-hero.webp",
+  "width": 676,
+  "height": 1200,
+  "bytes": 93788,
+  "placeholder": false
+ },
+ "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-01": {
+  "file": "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-01.webp",
+  "width": 563,
+  "height": 1000,
+  "bytes": 84740,
+  "placeholder": false
+ },
+ "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-02": {
+  "file": "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-02.webp",
+  "width": 563,
+  "height": 1000,
+  "bytes": 35522,
+  "placeholder": false
+ },
+ "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-03": {
+  "file": "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-03.webp",
+  "width": 563,
+  "height": 1000,
+  "bytes": 66072,
+  "placeholder": false
+ },
+ "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-04": {
+  "file": "pp-3d-walkthrough-for-flat-sale-manchester-city-centre-04.webp",
+  "width": 563,
+  "height": 1000,
+  "bytes": 52838,
+  "placeholder": false
+ },
+ "pp-as-built-deviation-flat-london-hero": {
+  "file": "pp-as-built-deviation-flat-london-hero.webp",
+  "width": 1200,
+  "height": 845,
+  "bytes": 49410,
+  "placeholder": false
+ },
+ "pp-as-built-deviation-flat-london-01": {
+  "file": "pp-as-built-deviation-flat-london-01.webp",
+  "width": 1200,
+  "height": 540,
+  "bytes": 38212,
+  "placeholder": false
+ },
+ "pp-as-built-deviation-flat-london-02": {
+  "file": "pp-as-built-deviation-flat-london-02.webp",
+  "width": 1200,
+  "height": 845,
+  "bytes": 46944,
+  "placeholder": false
+ },
+ "pp-as-built-deviation-flat-london-03": {
+  "file": "pp-as-built-deviation-flat-london-03.webp",
+  "width": 1200,
+  "height": 841,
+  "bytes": 55762,
+  "placeholder": false
+ },
+ "pp-house-planning-hero": {
+  "file": "pp-house-planning-hero.webp",
+  "width": 489,
+  "height": 381,
+  "bytes": 38344,
+  "placeholder": false
+ },
+ "pp-house-planning-01": {
+  "file": "pp-house-planning-01.webp",
+  "width": 320,
+  "height": 456,
+  "bytes": 14986,
+  "placeholder": false
+ },
+ "pp-house-planning-02": {
+  "file": "pp-house-planning-02.webp",
+  "width": 317,
+  "height": 422,
+  "bytes": 30428,
+  "placeholder": false
+ },
+ "pp-house-planning-03": {
+  "file": "pp-house-planning-03.webp",
+  "width": 489,
+  "height": 381,
+  "bytes": 35388,
+  "placeholder": false
+ },
+ "pp-heritage-scan-grade-ii-building-bath-hero": {
+  "file": "pp-heritage-scan-grade-ii-building-bath-hero.webp",
+  "width": 1187,
+  "height": 751,
+  "bytes": 81086,
+  "placeholder": false
+ },
+ "pp-heritage-scan-grade-ii-building-bath-01": {
+  "file": "pp-heritage-scan-grade-ii-building-bath-01.webp",
+  "width": 1200,
+  "height": 636,
+  "bytes": 132546,
+  "placeholder": false
+ },
+ "pp-heritage-scan-grade-ii-building-bath-02": {
+  "file": "pp-heritage-scan-grade-ii-building-bath-02.webp",
+  "width": 1187,
+  "height": 751,
+  "bytes": 73602,
+  "placeholder": false
+ },
+ "pp-heritage-scan-grade-ii-building-bath-03": {
+  "file": "pp-heritage-scan-grade-ii-building-bath-03.webp",
+  "width": 1030,
+  "height": 741,
+  "bytes": 68738,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-hero": {
+  "file": "pp-measured-survey-commercial-headquarters-london-hero.webp",
+  "width": 1200,
+  "height": 396,
+  "bytes": 24560,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-01": {
+  "file": "pp-measured-survey-commercial-headquarters-london-01.webp",
+  "width": 563,
+  "height": 1000,
+  "bytes": 63786,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-02": {
+  "file": "pp-measured-survey-commercial-headquarters-london-02.webp",
+  "width": 1200,
+  "height": 203,
+  "bytes": 38988,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-03": {
+  "file": "pp-measured-survey-commercial-headquarters-london-03.webp",
+  "width": 1200,
+  "height": 609,
+  "bytes": 139858,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-04": {
+  "file": "pp-measured-survey-commercial-headquarters-london-04.webp",
+  "width": 1200,
+  "height": 606,
+  "bytes": 71840,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-05": {
+  "file": "pp-measured-survey-commercial-headquarters-london-05.webp",
+  "width": 1200,
+  "height": 590,
+  "bytes": 61380,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-06": {
+  "file": "pp-measured-survey-commercial-headquarters-london-06.webp",
+  "width": 1200,
+  "height": 396,
+  "bytes": 22822,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-07": {
+  "file": "pp-measured-survey-commercial-headquarters-london-07.webp",
+  "width": 1200,
+  "height": 187,
+  "bytes": 20124,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-08": {
+  "file": "pp-measured-survey-commercial-headquarters-london-08.webp",
+  "width": 1200,
+  "height": 581,
+  "bytes": 177662,
+  "placeholder": false
+ },
+ "pp-measured-survey-commercial-headquarters-london-09": {
+  "file": "pp-measured-survey-commercial-headquarters-london-09.webp",
+  "width": 563,
+  "height": 1000,
+  "bytes": 51516,
+  "placeholder": false
+ },
+ "pp-cottage-extension-cotswolds-hero": {
+  "file": "pp-cottage-extension-cotswolds-hero.webp",
+  "width": 1200,
+  "height": 1064,
+  "bytes": 131800,
+  "placeholder": false
+ },
+ "pp-cottage-extension-cotswolds-01": {
+  "file": "pp-cottage-extension-cotswolds-01.webp",
+  "width": 1200,
+  "height": 647,
+  "bytes": 33064,
+  "placeholder": false
+ },
+ "pp-cottage-extension-cotswolds-02": {
+  "file": "pp-cottage-extension-cotswolds-02.webp",
+  "width": 1127,
+  "height": 1000,
+  "bytes": 112388,
+  "placeholder": false
+ },
+ "pp-cottage-extension-cotswolds-03": {
+  "file": "pp-cottage-extension-cotswolds-03.webp",
+  "width": 513,
+  "height": 500,
+  "bytes": 38044,
+  "placeholder": false
+ },
+ "pp-rear-side-loft-extension-potters-bar-london-hero": {
+  "file": "pp-rear-side-loft-extension-potters-bar-london-hero.webp",
+  "width": 1200,
+  "height": 542,
+  "bytes": 43864,
+  "placeholder": false
+ },
+ "pp-rear-side-loft-extension-potters-bar-london-01": {
+  "file": "pp-rear-side-loft-extension-potters-bar-london-01.webp",
+  "width": 1200,
+  "height": 542,
+  "bytes": 41898,
+  "placeholder": false
+ },
+ "pp-rear-side-loft-extension-potters-bar-london-02": {
+  "file": "pp-rear-side-loft-extension-potters-bar-london-02.webp",
+  "width": 572,
+  "height": 621,
+  "bytes": 20586,
+  "placeholder": false
+ },
+ "pp-rear-side-loft-extension-potters-bar-london-03": {
+  "file": "pp-rear-side-loft-extension-potters-bar-london-03.webp",
+  "width": 1002,
+  "height": 758,
+  "bytes": 26862,
+  "placeholder": false
+ },
+ "pp-rear-extension-watford-london-hero": {
+  "file": "pp-rear-extension-watford-london-hero.webp",
+  "width": 995,
+  "height": 722,
+  "bytes": 31510,
+  "placeholder": false
+ },
+ "pp-rear-extension-watford-london-01": {
+  "file": "pp-rear-extension-watford-london-01.webp",
+  "width": 563,
+  "height": 1000,
+  "bytes": 126654,
+  "placeholder": false
+ },
+ "pp-rear-extension-watford-london-02": {
+  "file": "pp-rear-extension-watford-london-02.webp",
+  "width": 995,
+  "height": 722,
+  "bytes": 29860,
+  "placeholder": false
+ },
+ "pp-rear-extension-watford-london-03": {
+  "file": "pp-rear-extension-watford-london-03.webp",
+  "width": 1200,
+  "height": 849,
+  "bytes": 47654,
+  "placeholder": false
+ },
+ "pp-rear-extension-watford-london-04": {
+  "file": "pp-rear-extension-watford-london-04.webp",
+  "width": 1200,
+  "height": 675,
+  "bytes": 158202,
+  "placeholder": false
+ },
+ "logo": {
+  "file": "logo.png",
+  "width": 560,
+  "height": 146,
+  "bytes": 31953,
+  "placeholder": false
+ },
+ "logo-light": {
+  "file": "logo-light.png",
+  "width": 560,
+  "height": 146,
+  "bytes": 76221,
+  "placeholder": false
+ }
+}

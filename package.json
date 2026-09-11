@@ -1,0 +1,15 @@
+{
+  "name": "axis-3d-surveys",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pitch demo for Axis 3D Surveys: the improved site and a page explaining what changed",
+  "scripts": {
+    "build": "python3 tools/build.py",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
