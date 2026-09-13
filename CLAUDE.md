@@ -14,6 +14,7 @@ public/            everything served (home, about, contact, services, projects,
                    team, improvements, 404, assets, fonts, _headers, robots)
 tools/build.py     generates the pages in public/ from the content it contains
 tools/convert.js   one-off image conversion from the client's browser export
+tools/social.js    renders the share thumbnail public/assets/img/social.jpg
 scripts/render_check.py  render check used before every push
 scripts/screenshots.js   full-page screenshots of every template, desktop and phone
 wrangler.jsonc     assets-only config, no Worker script
@@ -84,3 +85,4 @@ appears anywhere in this repo.
 | Version | Title | Description |
 | --- | --- | --- |
 | v1.0 | Axis 3D Surveys demo: same brand, fixed and faster | A rebuilt Axis 3D Surveys site in the company's own logo, colours and typefaces, with the dead links, stray template text, borrowed theme images and footer address fixed, and every page loading at a fraction of the weight. A second tab explains each improvement in plain terms and lists what still needs the client's input. |
+| v1.1 | A picture for every shared link | Sharing any page of the demo on WhatsApp, LinkedIn or Facebook now shows a proper preview card in the company's colours, with the logo, the headline and the phone number, instead of a blank box or a cropped photo. |

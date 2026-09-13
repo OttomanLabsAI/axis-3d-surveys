@@ -792,9 +792,9 @@
  },
  "logo-light": {
   "file": "logo-light.png",
-  "width": 560,
-  "height": 146,
-  "bytes": 76221,
+  "width": 406,
+  "height": 109,
+  "bytes": 44915,
   "placeholder": false
  }
 }

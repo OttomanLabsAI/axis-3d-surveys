@@ -183,12 +183,14 @@ ${dots.join('')}
     manifest[name] = { file: name + '.webp', width: info.width, height: info.height, bytes: info.size, placeholder: !source };
     total += info.size;
   }
-  // Logo: trim the whitespace around the wordmark, then a light variant (dark pixels -> white) for the footer
+  // Logo: the header file (white background, trimmed) for light backgrounds, and a light variant
+  // (dark pixels -> white) of the site's own transparent footer file for dark backgrounds
   const logoSrc = ROOT !== '-' ? path.join(ROOT, H, 'Untitled-design.png') : null;
-  if (logoSrc && fs.existsSync(logoSrc)) {
+  const logoAlphaSrc = ROOT !== '-' ? path.join(ROOT, H, 'AXIS3D_Surveys_Logo_Vectorized_300dpi-removebg-preview.png') : null;
+  if (logoSrc && fs.existsSync(logoSrc) && fs.existsSync(logoAlphaSrc)) {
     const trimmed = await sharp(logoSrc).trim({ threshold: 20 }).resize({ width: 560, withoutEnlargement: true }).png().toBuffer();
     const l1 = await sharp(trimmed).png({ compressionLevel: 9, palette: true }).toFile(path.join(OUT, 'logo.png'));
-    const { data, info } = await sharp(trimmed).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+    const { data, info } = await sharp(logoAlphaSrc).trim({ threshold: 20 }).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
     const light = Buffer.from(data);
     for (let i = 0; i < light.length; i += 4) {
       const r = light[i], g = light[i + 1], b = light[i + 2], a = light[i + 3];

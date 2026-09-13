@@ -424,7 +424,12 @@ def jsonld():
 
 def layout(title, desc, body, current="", tab="site", schema=True):
     full_title = title if title.endswith("Axis 3D Surveys") else f"{title} – Axis 3D Surveys"
-    og_image = f'<meta property="og:image" content="{BASE_URL}/assets/img/{MANIFEST["hero"]["file"]}">' if BASE_URL else ""
+    # The share thumbnail is rendered by tools/social.js. Scrapers want an absolute URL, which BASE_URL
+    # supplies at go-live; until then the tag carries the root-relative path.
+    og_image = (f'<meta property="og:image" content="{BASE_URL}/assets/img/social.jpg">'
+                f'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
+                f'<meta property="og:image:alt" content="Axis 3D Surveys – Need accurate surveys? Reliable 3D scans and as-built models across the UK.">'
+                f'<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{BASE_URL}/assets/img/social.jpg">')
     canonical = f'<link rel="canonical" href="{BASE_URL}{current}">' if BASE_URL and current else ""
     ld = f'<script type="application/ld+json">{jsonld()}</script>' if schema else ""
     return f"""<!doctype html>
@@ -439,8 +444,8 @@ def layout(title, desc, body, current="", tab="site", schema=True):
 <meta property="og:title" content="{esc(full_title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:type" content="website">
-{og_image}{canonical}
-<meta name="theme-color" content="#09162a">
+{og_image}
+{canonical}<meta name="theme-color" content="#09162a">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/rajdhani-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/mulish-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>

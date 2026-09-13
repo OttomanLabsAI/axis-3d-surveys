@@ -34,6 +34,7 @@ public/                everything served
 tools/build.py         generates every page in public/ from the content in the file
 tools/convert.js       converts the browser export's images (needs `sharp` and the export)
 tools/img-manifest.json  sizes of the converted images, read by build.py
+tools/social.js        renders the 1200×630 share thumbnail (public/assets/img/social.jpg) used by every page's Open Graph tags
 scripts/render_check.py  serves public/, screenshots it, checks local links
 scripts/screenshots.js   full-page Playwright screenshots of every template at desktop and phone width, with an overflow check
 wrangler.jsonc  package.json  package-lock.json
@@ -64,6 +65,11 @@ NODE_PATH=<scratch>/node_modules node tools/convert.js <exportRoot> public/asset
 Pass `-` as the export root to generate labelled placeholders for every slot
 instead. New images can simply be added to `public/assets/img/` and an entry
 appended to the manifest.
+
+The social share thumbnail is rendered from the site's own fonts, logo and
+photographs with `NODE_PATH=/opt/node22/lib/node_modules node tools/social.js`.
+Link previews need an absolute image URL, so set `BASE_URL` in `tools/build.py`
+to the demo's origin (or the live domain at go-live) and rebuild.
 
 ## Local development
 
